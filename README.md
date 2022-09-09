@@ -9,4 +9,4 @@ As of right now includes a countdown function and a helicopter insertion functio
   > ```class cfgFunctions
        {
           #include "functions\cfgfunctions.hpp"
-       };```
+       };
