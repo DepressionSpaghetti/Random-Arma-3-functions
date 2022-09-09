@@ -6,7 +6,7 @@ As of right now includes a countdown function and a helicopter insertion functio
 
 # Usage
 1. Add the below lines to your description.ext file
-  > ```class cfgFunctions
+     > class cfgFunctions
        {
           #include "functions\cfgfunctions.hpp"
        };
