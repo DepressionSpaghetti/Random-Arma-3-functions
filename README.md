@@ -6,7 +6,9 @@ As of right now includes a countdown function and a helicopter insertion functio
 
 # Usage
 1. Add the below lines to your description.ext file
-     > class cfgFunctions
-       {
-          #include "functions\cfgfunctions.hpp"
-       };
+     >```
+     >class cfgFunctions
+     >{
+     >    #include "functions\cfgfunctions.hpp"
+     >};
+2. Thats it go use the functions
