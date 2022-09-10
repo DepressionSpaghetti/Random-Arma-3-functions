@@ -14,4 +14,12 @@ class tg
 		class insertion {};
 
 	};
+
+	class airstrikeFunction
+	{
+		file = "functions\airstrike";
+		class airstrike {};
+
+	};
+
 };

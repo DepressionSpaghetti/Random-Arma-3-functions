@@ -1,4 +1,4 @@
-/*--------------------------------------------------------------------------------------------------------------------
+/*-------------------------------------------------------------------------------------------------------------------
 
 Description: 
       Plays back a vehicle flightpath and allows the insertion of units via rappel.
@@ -25,8 +25,8 @@ Parameters:
 		  ex: true, false
 
 Example:
-      handleName = [blackhawk, movData, trigg1, true] call TG_fnc_countdown;
-      handleName = [blackhawk, movData, trigg1] call TG_fnc_countdown;
+      handleName = [blackhawk, movData, trigg1, true] call TG_fnc_insertion;
+      handleName = [blackhawk, movData, trigg1] call TG_fnc_insertion;
 
 ---------------------------------------------------------------------------------------------------------------------*/
 
@@ -52,3 +52,6 @@ while{!(triggerActivated _triggerName)} do
 	sleep 0.01;
 
 };
+
+_returnValue = true;
+_returnValue;
