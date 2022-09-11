@@ -8,7 +8,8 @@ Description:
 Usage:
 	  1. use BIS_fnc_UnitCapture to record the flightpath of your helicopter
 	  2. copy the given flightpath to a variable
-	  3. pass all needed parameters to the called function in your script
+	  3. set a trigger in your editor
+	  4. pass all needed parameters to the called function in your script
 
 Parameters:
       0: must be:

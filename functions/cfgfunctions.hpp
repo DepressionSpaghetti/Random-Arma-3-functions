@@ -22,4 +22,11 @@ class tg
 
 	};
 
+	class paradropFunction
+	{
+		file = "functions\paradrop";
+		class paradrop {};
+
+	};
+	
 };
